@@ -1,4 +1,3 @@
-local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Frame_2 = Instance.new("Frame")
 local ImageLabel = Instance.new("ImageLabel")
@@ -9,14 +8,11 @@ local Frame_3 = Instance.new("Frame")
 local TextButton = Instance.new("TextButton")
 local UIListLayout = Instance.new("UIListLayout")
 local TextButton_2 = Instance.new("TextButton")
-local Template = Instance.new("TextButton")
-ScreenGui.Parent = game:GetService("CoreGui")
-ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-Frame.Parent = ScreenGui
+Frame.Parent = game.StarterGui.ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
 Frame.ClipsDescendants = true
-Frame.Position = UDim2.new(0.296779811, 0, 0.349382728, 0)
+Frame.Position = UDim2.new(0.5, -233, 0.5, -58)
 Frame.Size = UDim2.new(0, 466, 0, 116)
 Frame_2.Parent = Frame
 Frame_2.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
@@ -26,7 +22,7 @@ Frame_2.Size = UDim2.new(1, 0, -0.0491803288, 73)
 ImageLabel.Parent = Frame_2
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.ClipsDescendants = true
-ImageLabel.Position = UDim2.new(0.0193133019, 0, 0.163934439, 0)
+ImageLabel.Position = UDim2.new(0.0214592256, 0, 0.178794369, 0)
 ImageLabel.Size = UDim2.new(0, 41, 0, 41)
 ImageLabel.Image = "rbxassetid://12666611697"
 UICorner.CornerRadius = UDim.new(9, 9)
@@ -34,7 +30,7 @@ UICorner.Parent = ImageLabel
 TextLabel.Parent = Frame_2
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
-TextLabel.Position = UDim2.new(0.124150224, 0, 0.163934425, 0)
+TextLabel.Position = UDim2.new(0.126296148, 0, 0.178794354, 0)
 TextLabel.Size = UDim2.new(0, 408, 0, 16)
 TextLabel.Font = Enum.Font.ArialBold
 TextLabel.Text = "Communication"
@@ -45,8 +41,8 @@ TextLabel.TextYAlignment = Enum.TextYAlignment.Top
 TextLabel_2.Parent = Frame_2
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.Position = UDim2.new(0.123999998, 1, 0.524999976, 0)
-TextLabel_2.Size = UDim2.new(0, 408, 0, 18)
+TextLabel_2.Position = UDim2.new(0.126145855, 1, 0.510140181, 0)
+TextLabel_2.Size = UDim2.new(0, 408, 0, 20)
 TextLabel_2.Font = Enum.Font.Arial
 TextLabel_2.Text = "flamespill#7488"
 TextLabel_2.TextColor3 = Color3.fromRGB(162, 162, 162)
@@ -83,19 +79,7 @@ TextButton_2.Font = Enum.Font.Arial
 TextButton_2.Text = "Loop Collect All"
 TextButton_2.TextColor3 = Color3.fromRGB(162, 162, 162)
 TextButton_2.TextSize = 14.000
-Template.Name = "Template"
-Template.Parent = ScreenGui
-Template.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
-Template.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Template.Size = UDim2.new(1, 0, 0, 20)
-Template.Visible = false
-Template.AutoButtonColor = false
-Template.Font = Enum.Font.Arial
-Template.Text = "Template  -  Size 0"
-Template.TextColor3 = Color3.fromRGB(255, 255, 255)
-Template.TextSize = 14.000
-Template.TextXAlignment = Enum.TextXAlignment.Left
-local function GBSQSRA_fake_script()
+local function RXMG_fake_script()
 	local script = Instance.new('LocalScript', Frame)
 	local dragToggle = nil
 	local dragSpeed = 0.02
@@ -127,8 +111,8 @@ local function GBSQSRA_fake_script()
 		end
 	end)
 end
-coroutine.wrap(GBSQSRA_fake_script)()
-local function ZUUIJE_fake_script()
+coroutine.wrap(RXMG_fake_script)()
+local function WXGQUO_fake_script()
 	local script = Instance.new('LocalScript', TextButton)
 	script.Parent.MouseButton1Click:Connect(function()
 			for i, v in ipairs(workspace.Parts:GetDescendants()) do
@@ -138,8 +122,8 @@ local function ZUUIJE_fake_script()
 			end
 	end)
 end
-coroutine.wrap(ZUUIJE_fake_script)()
-local function LLFFL_fake_script()
+coroutine.wrap(WXGQUO_fake_script)()
+local function JVXJ_fake_script()
 	local script = Instance.new('LocalScript', TextButton_2)
 	local toggle = false
 	script.Parent.MouseButton1Click:Connect(function()
@@ -159,4 +143,4 @@ local function LLFFL_fake_script()
 		end
 	end)
 end
-coroutine.wrap(LLFFL_fake_script)()
+coroutine.wrap(JVXJ_fake_script)()
