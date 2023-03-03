@@ -1,4 +1,7 @@
-local ScreenGui = Instance.new("ScreenGui") local Frame = Instance.new("Frame") local Frame_2 = Instance.new("Frame") local ImageLabel = Instance.new("ImageLabel")
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
 local UICorner = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
 local TextLabel_2 = Instance.new("TextLabel")
@@ -92,7 +95,7 @@ Template.Text = "Template  -  Size 0"
 Template.TextColor3 = Color3.fromRGB(255, 255, 255)
 Template.TextSize = 14.000
 Template.TextXAlignment = Enum.TextXAlignment.Left
-local function MLTJX_fake_script()
+local function GBSQSRA_fake_script()
 	local script = Instance.new('LocalScript', Frame)
 	local dragToggle = nil
 	local dragSpeed = 0.02
@@ -124,10 +127,9 @@ local function MLTJX_fake_script()
 		end
 	end)
 end
-coroutine.wrap(MLTJX_fake_script)()
-local function AKQBWP_fake_script()
+coroutine.wrap(GBSQSRA_fake_script)()
+local function ZUUIJE_fake_script()
 	local script = Instance.new('LocalScript', TextButton)
-
 	script.Parent.MouseButton1Click:Connect(function()
 			for i, v in ipairs(workspace.Parts:GetDescendants()) do
 				if v:IsA("Part") then
@@ -136,8 +138,8 @@ local function AKQBWP_fake_script()
 			end
 	end)
 end
-coroutine.wrap(AKQBWP_fake_script)()
-local function RIMXZVQ_fake_script()
+coroutine.wrap(ZUUIJE_fake_script)()
+local function LLFFL_fake_script()
 	local script = Instance.new('LocalScript', TextButton_2)
 	local toggle = false
 	script.Parent.MouseButton1Click:Connect(function()
@@ -157,4 +159,4 @@ local function RIMXZVQ_fake_script()
 		end
 	end)
 end
-coroutine.wrap(RIMXZVQ_fake_script)()
+coroutine.wrap(LLFFL_fake_script)()
